@@ -1,0 +1,12 @@
+type: hyperskill
+title: Composer
+language: English
+summary: "<p>Learn to simplify multi-service management using Docker Compose. In this\
+  \ project, you'll create a command file defining services, dependencies, and other\
+  \ configurations.</p><br/><br/>Learn more at <a href=\"https://hyperskill.org/projects/374?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
+  >https://hyperskill.org/projects/374</a>"
+programming_language: Python
+content:
+  - Composer
+mode: Study
+yaml_version: 2

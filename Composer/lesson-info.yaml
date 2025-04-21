@@ -1,0 +1,10 @@
+type: framework
+content:
+  - NoSQL
+  - Network   volume
+  - Task manager
+  - Sideline
+  - Get started
+  - Reboot
+  - Terminate
+current_task: 0

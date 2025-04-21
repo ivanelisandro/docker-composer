@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: task-manager/api_documentation.md
+    visible: true
+    learner_created: false
+  - name: task-manager/docker-compose.yaml
+    visible: true
+    learner_created: false
+  - name: task-manager/Dockerfile
+    visible: true
+    learner_created: false
+  - name: task-manager/main.py
+    visible: true
+    learner_created: false
+  - name: task-manager/requirements.txt
+    visible: true
+    learner_created: false
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/test-docker-compose.yaml
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32213#comment
+status: Unchecked
+record: -1

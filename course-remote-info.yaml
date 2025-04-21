@@ -1,0 +1,124 @@
+hyperskill_project:
+  id: 374
+  ide_files: https://hyperskill.org/api/projects/374/additional-files/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Mon, 21 Apr 2025 21:44:43 UTC"
+stages:
+  - id: 2231
+    step: 32210
+    is_completed: false
+  - id: 2232
+    step: 32211
+    is_completed: false
+  - id: 2233
+    step: 32212
+    is_completed: false
+  - id: 2234
+    step: 32213
+    is_completed: false
+  - id: 2235
+    step: 32214
+    is_completed: false
+  - id: 2236
+    step: 32215
+    is_completed: false
+  - id: 2237
+    step: 32216
+    is_completed: false
+topics:
+  0:
+    - title: Operating systems
+      theory_id: 9704
+    - title: Command line overview
+      theory_id: 8977
+    - title: Parameters and options
+      theory_id: 9746
+    - title: First program in bash
+      theory_id: 12135
+    - title: Variables and aliases
+      theory_id: 16670
+    - title: "Introduction to docker, installation"
+      theory_id: 15850
+    - title: Run the "hello-world" docker container
+      theory_id: 16020
+    - title: Basic operations with a container
+      theory_id: 17573
+    - title: Docker build and docker tag
+      theory_id: 23950
+    - title: "Dockerfile (FROM, LABEL, CMD, ENTRYPOINT)"
+      theory_id: 24322
+    - title: Orchestration tools
+      theory_id: 28777
+    - title: Working with environment variables
+      theory_id: 21828
+    - title: Introduction to Docker compose
+      theory_id: 27883
+    - title: Docker-compose.yml syntax
+      theory_id: 29898
+    - title: Introduction to software architecture
+      theory_id: 15368
+    - title: YAML
+      theory_id: 12722
+    - title: What are databases
+      theory_id: 8497
+    - title: Documentation
+      theory_id: 12069
+    - title: JSON
+      theory_id: 6854
+    - title: Introduction to Linux
+      theory_id: 9526
+    - title: NoSQL
+      theory_id: 15003
+    - title: Containers
+      theory_id: 15082
+    - title: Environment variables
+      theory_id: 21817
+    - title: Three-tier architecture
+      theory_id: 25083
+    - title: What is MongoDB
+      theory_id: 13231
+  1:
+    - title: Units of information
+      theory_id: 6865
+    - title: World Wide Web
+      theory_id: 6633
+    - title: IP
+      theory_id: 13662
+    - title: Docker networking
+      theory_id: 23960
+  2:
+    - title: Libraries
+      theory_id: 8504
+    - title: Semantic versioning
+      theory_id: 19244
+  3:
+    - title: Files
+      theory_id: 13025
+    - title: File types
+      theory_id: 13017
+    - title: File modes and permissions
+      theory_id: 13953
+    - title: Exit codes
+      theory_id: 30933
+  4:
+    - title: MongoDB VS Relational databases
+      theory_id: 17601
+  5:
+    - title: "HTTP: HyperText Transfer Protocol"
+      theory_id: 6569
+    - title: HTTP URL
+      theory_id: 6740
+    - title: HTTP messages
+      theory_id: 6752
+    - title: Help files
+      theory_id: 13309
+    - title: Getting data from net
+      theory_id: 13915
+    - title: Frameworks
+      theory_id: 6701
+    - title: Introduction to API
+      theory_id: 17007
+  6:
+    - title: Publishing your project on GitHub
+      theory_id: 30945
