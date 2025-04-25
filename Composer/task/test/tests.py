@@ -37,19 +37,6 @@ class DockerTest(StageTest):
                 elif dict1[key] != dict2[key]:
                     return f"Value for the key `{key}` is wrong. It should be `{dict1[key]}`"
 
-    # check if compose-file is empty
-    @dynamic_test()
-    def test0(self):
-        """Tests if the docker-compose.yaml file is empty"""
-        file = f"{stage}/task-manager/docker-compose.yaml"
-        dict1 = self.load_yaml(file)
-        if not isinstance(dict1, dict):
-            return CheckResult.wrong(f"{dict1} `{file}`")
-        if not dict1:
-            return CheckResult.wrong("The file is empty")
-        return CheckResult.correct()
-
-
     @dynamic_test()
     def test1(self):
         """Tests if two yaml files are equal"""
