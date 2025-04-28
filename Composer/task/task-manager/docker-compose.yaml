@@ -16,6 +16,19 @@ services:
     networks:
       - hyper-task-manager-network
 
+  hyper-service:
+    container_name: hyper-task-manager
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_HOST_NAME: mongodb
+      MONGO_PORT_NUMBER: 27017
+    env_file:
+      - .env
+
 volumes:
   mongo-data:
 

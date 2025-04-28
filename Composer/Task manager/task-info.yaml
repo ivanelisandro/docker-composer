@@ -30,6 +30,18 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
+  - name: task-manager/stage2.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage1.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage3.md
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/32212#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 28 Apr 2025 15:27:24 UTC"
 record: -1
