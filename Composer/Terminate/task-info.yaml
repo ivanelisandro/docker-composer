@@ -27,6 +27,24 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
+  - name: task-manager/stage4.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage5.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage3.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage2.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage6.md
+    visible: true
+    learner_created: true
+  - name: task-manager/stage1.md
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/32216#comment
 status: Unchecked
 record: -1

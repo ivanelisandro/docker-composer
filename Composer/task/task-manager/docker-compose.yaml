@@ -1,9 +1,9 @@
-name: hyper-task-manager
+name: task-manager-app
 
 services:
   mongodb:
     image: mongo:6.0.8
-    container_name: hyper-mongo
+    container_name: task-manager-db
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
@@ -12,12 +12,12 @@ services:
     env_file:
       - .env
     volumes:
-      - mongo-data:/data/db
+      - task-manager-data:/data/db
     networks:
-      - hyper-task-manager-network
+      - task-manager-network
 
-  hyper-service:
-    container_name: hyper-task-manager
+  task-manager-app:
+    container_name: task-manager-app
     build:
       context: .
       dockerfile: Dockerfile
@@ -31,12 +31,12 @@ services:
     ports:
       - "8000:8000"
     networks:
-      - hyper-task-manager-network
+      - task-manager-network
     depends_on:
       - mongodb
 
 volumes:
-  mongo-data:
+  task-manager-data:
 
 networks:
-  hyper-task-manager-network:
+  task-manager-network:
