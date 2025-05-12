@@ -1,6 +1,6 @@
 # Stage 6:
 
-In this stage name convention changed so we will update the services names.
+In this stage the name convention changed so we will update the services names.
 
 We will also use the built API for the first time according to `api_documentation.md`.
 
